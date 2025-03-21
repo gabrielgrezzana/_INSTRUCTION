@@ -1,0 +1,109 @@
+<h2 style="text-align:center">Download Client</h2>
+
+<table class="table table-bordered table-hover w-100">
+	<thead>
+		<tr>
+			<th style="text-align: center;">File Name</th>
+			<th style="text-align: center;">Password</th>
+			<th style="text-align: center;">Source</th>
+			<th style="text-align: center;">Link</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>RF CLIENT.rar</td>
+			<td>No Password</td>
+			<td>GDrive</td>
+			<td style="text-align:center"><a class="btn btn-primary" href="#">Download</a></td>
+		</tr>
+		<tr>
+			<td>RF CLIENT.rar</td>
+			<td>No Password</td>
+			<td>Mega</td>
+			<td style="text-align:center"><a class="btn btn-primary" href="#">Download</a></td>
+		</tr>
+		<tr>
+			<td>RF CLIENT.rar</td>
+			<td>No Password</td>
+			<td>Mediafire</td>
+			<td style="text-align:center"><a class="btn btn-primary" href="#">Download</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h2 style="text-align:center">Download Tool</h2>
+
+<table class="table table-bordered table-hover w-100">
+	<thead>
+		<tr>
+			<th>File Name</th>
+			<th>Description</th>
+			<th>Link</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>WinRar</td>
+			<td><em>WinRAR</em>&nbsp;- the data compression, encryption and archiving tool for Windows that opens RAR and ZIP files.</td>
+			<td><a class="btn btn-secondary" href="https://www.win-rar.com/download.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;">Download</a></td>
+		</tr>
+		<tr>
+			<td>7zip</td>
+			<td>
+			<p>7-Zip is a file archiver with a high compression ratio.</p>
+			</td>
+			<td><a class="btn btn-secondary" href="https://www.7-zip.org/download.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;">Download</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h2 style="text-align:center">Game&nbsp;Specifications</h2>
+
+<table class="table table-bordered table-hover">
+	<thead>
+		<tr>
+			<th scope="col">&nbsp;</th>
+			<th scope="col">Minimum Requirements</th>
+			<th scope="col">Recommended Requirements</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align:center">OS</td>
+			<td>Windows 98SE/2000/XP only</td>
+			<td>
+			<div class="text-gold">Windows XP, Windows 7 or better</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">CPU</td>
+			<td>Pentium III or Athlon equivalent</td>
+			<td>
+			<div class="text-gold">2,4 Ghz Core to Duo E6600 2,4 Ghz or better</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">RAM</td>
+			<td>512 MB</td>
+			<td>
+			<div class="text-gold">2 GB or better</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">VGA</td>
+			<td>GeForce3+ [not MX] / Radeon 8500+</td>
+			<td>
+			<div class="text-gold">GeForce 8800&nbsp;GT / Radeon R2 or better</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">DirectX</td>
+			<td>DirectX 9.0c</td>
+			<td>
+			<div class="text-gold">DirectX 9 or better</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>

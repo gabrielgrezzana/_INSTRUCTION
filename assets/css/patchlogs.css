@@ -1,0 +1,214 @@
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
+.extl_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.extl_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 6px;
+	background: var(--color-gold);
+	left: 20%;
+	margin-left: -8px;
+}
+
+/* The date/time */
+.extl_tmtimeline > li .extl_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 80px;
+	position: absolute;
+	top: 6px;
+}
+
+.extl_tmtimeline > li .extl_tmtime span {
+	display: block;
+	text-align: right;
+	font-size: 16px;
+}
+
+/* .extl_tmtimeline > li .extl_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #bdd0db;
+}
+
+.extl_tmtimeline > li .extl_tmtime span:last-child {
+	font-size: 2.9em;
+	color: #870000;
+}
+
+.extl_tmtimeline > li:nth-child(odd) .extl_tmtime span:last-child {
+	color: #6cbfee;
+} */
+
+/* Right content */
+.extl_tmtimeline > li .extl_tmlabel {
+	margin: 0 0 15px 25%;
+	background: var(--color-secondary);
+	color: #fff;
+	padding: 1em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: -3px 0 0 0 var(--color-gold);
+}
+
+/* .extl_tmtimeline > li:nth-child(odd) .extl_tmlabel {
+	background: #6cbfee;
+} */
+
+.extl_tmtimeline > li .extl_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.extl_tmtimeline > li .extl_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: var(--color-gold);
+	border-width: 14px;
+	top: 8px;
+}
+
+/* .extl_tmtimeline > li:nth-child(odd) .extl_tmlabel:after {
+	border-right-color: #6cbfee;
+} */
+
+/* The icons */
+.extl_tmtimeline > li .extl_tmicon {
+	width: 40px;
+	height: 40px;
+	/* font-family: 'ecoico'; */
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: var(--color-primary);
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px var(--color-secondary);
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.extl_tmicon-phone:before {
+	content: "\e000";
+}
+
+.extl_tmicon-screen:before {
+	content: "\e001";
+}
+
+.extl_tmicon-mail:before {
+	content: "\e002";
+}
+
+.extl_tmicon-earth:before {
+	content: "\e003";
+}
+
+.label-star::after {
+	content: ' ';
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: url(../img/star.svg) no-repeat !important;
+}
+
+.label-history::after {
+	content: ' ';
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: url(../img/history.svg) no-repeat !important;
+}
+
+/* Example Media Queries */
+/* @media screen and (max-width: 65.375em) {
+
+	.extl_tmtimeline > li .extl_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.extl_tmtimeline:before {
+		display: none;
+	}
+
+	.extl_tmtimeline > li .extl_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.extl_tmtimeline > li .extl_tmtime span {
+		text-align: left;
+	}
+
+	.extl_tmtimeline > li .extl_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.extl_tmtimeline > li .extl_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #870000;
+		top: -20px;
+	}
+
+	.extl_tmtimeline > li:nth-child(odd) .extl_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #6cbfee;
+	}
+
+	.extl_tmtimeline > li .extl_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}	
+} */
+

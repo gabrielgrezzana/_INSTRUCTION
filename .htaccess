@@ -1,0 +1,27 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^(_admin)($|/) - [L]
+	RewriteRule ^$ index.php
+	RewriteRule ^$ index.php?do=news
+	RewriteRule ^news$ news/1
+	RewriteRule ^news$ index.php?do=news
+	RewriteRule ^events$ events/1
+	RewriteRule ^events$ index.php?do=events
+	RewriteRule ^notice$ notice/1
+	RewriteRule ^notice$ index.php?do=notice
+	RewriteRule ^server-info$ index.php?do=server-info
+	RewriteRule ^rules$ index.php?do=rules
+ 	RewriteRule ^download$ index.php?do=download
+	RewriteRule ^top-player$ index.php?do=top-player
+	RewriteRule ^donate-list$ index.php?do=donate-list
+	RewriteRule ^donate-guide$ index.php?do=how-to-donate
+	RewriteRule ^contact$ index.php?do=contact
+	RewriteRule ^patchlogs$ index.php?do=patchlogs
+
+	RewriteRule ^([^/\.]+)/?$ ?do=$1& [L]
+	RewriteRule ^([^/\.]+)/([^/\.]+)?$ ?do=$1&page=$2 [L]
+	
+</IfModule>

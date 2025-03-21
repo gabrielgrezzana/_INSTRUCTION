@@ -1,0 +1,21 @@
+.center-countdown {
+	text-align: center;
+    /* margin-top: 93px; */
+    position: absolute;
+    margin-left: 434px;
+	min-width: 300px;
+}
+.center-countdown-2 {
+	text-align: center;
+}
+.countdown{
+    font-family: arial;
+    text-transform: uppercase;
+    margin-top: 64px;
+    position: absolute;
+    margin-left: 423px;}
+.countdown > div{display: inline-block;}
+.countdown > div > span{display: block; text-align: center;}
+.countdown-container{margin:0 3px; min-width: 75px;}
+.countdown-container .countdown-heading{font-size: 11px; margin: 3px; color: #fff; text-shadow: 2px 2px 2px rgba(0,0,0,0.4)}
+.countdown-container .countdown-value{font-size: 50px; background: #6273c9; padding:5px; color:#fff; text-shadow: 2px 2px 2px rgba(0,0,0,0.4)}
